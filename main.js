@@ -67,9 +67,7 @@ priceForm.addEventListener('submit', function (prova) {
             finalPrice = basePrice * 0.6;
             console.log('Prezzo scontato del 40%:', finalPrice);
         }
-        else {
-            alert('Dati non validi')
-        }
+        
         document.getElementById("biglietto").innerHTML = 'Prezzo del biglietto:' + finalPrice.toFixed(2) + '€';
         // document.getElementById('km').value = '';
         // document.getElementById('age').value = '';
